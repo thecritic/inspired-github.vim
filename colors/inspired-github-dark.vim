@@ -42,8 +42,8 @@ hi Type                       guifg=#ca1243 guibg=None guisp=None gui=None cterm
 hi Visual                     guifg=None guibg=#351536 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
 
 " HTML-specific
-hi TSTag                      guifg=#519647
-hi htmlTag                    guifg=#519647
+hi TSTag                      guifg=#91719D
+hi htmlTag                    guifg=#91719D
 hi TSTagAttribute             guifg=#6a0dad
 hi htmlTagAttribute           guifg=#6a0dad
 
@@ -52,16 +52,16 @@ hi link phpTSOperator         Keyword
 hi link phpOperator         Keyword
 
 " General
-hi MatchParen                 guibg=#dddddd
-hi EndOfBuffer                guifg=#ffffff
-hi Pmenu                      guibg=#F2F2F2
-hi PmenuSel                   guibg=#DDDDDD
+hi MatchParen                 guibg=#502751
+hi EndOfBuffer                guifg=#000000
+hi Pmenu                      guibg=#351536
+hi PmenuSel                   guibg=#240B25
 hi CursorLineNr               guifg=#6D6D6D guibg=#F2F2F2   
 hi SignColumn                 guifg=None guibg=None 
 hi LineNr                     guifg=#44304C guibg=None
 hi ColorColumn                guibg=#f5f5f5
 hi Title                      guifg=#323232
-hi Directory                  guibg=None guifg=#115F93
+hi Directory                  guibg=None guifg=#ef233c
 hi VertSplit                  guifg=#0F0414 guibg=#44304C
 hi StatusLine                 guifg=#ffffff
 hi StatusLineNC               guifg=#ffffff
