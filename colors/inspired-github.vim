@@ -15,7 +15,7 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name="inspired-github"
+let g:colors_name="inspired-github-dark"
 
 " Syntax
 " :help syntax.txt:198 
