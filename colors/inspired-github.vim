@@ -18,22 +18,28 @@ set t_Co=256
 let g:colors_name="inspired-github"
 
 " Syntax
+" :help syntax.txt:198 
 hi Character                  guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
-hi Comment                    guifg=#969896 guibg=None guisp=None gui=italic ctermfg=246 ctermbg=None cterm=italic
-hi Constant                   guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
+hi Comment                    guifg=#44304C guibg=None guisp=None gui=italic ctermfg=246 ctermbg=None cterm=italic
+hi Constant                   guifg=#ef233c guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Cursor                     guifg=None guibg=#ca1243 guisp=None gui=None ctermfg=None ctermbg=236 cterm=None
-hi CursorLine                 guifg=None guibg=#f5f5f5 guisp=None gui=None ctermfg=None ctermbg=255 cterm=None
-hi Function                   guifg=#795da3 guibg=None guisp=None ctermfg=97 ctermbg=None
-hi Identifier                 guifg=#323232 guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
-hi Keyword                    guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None
+hi CursorLine                 guifg=None guibg=#1F0520 guisp=None gui=None ctermfg=None ctermbg=255 cterm=None
+hi Function                   guifg=#ca1243 guibg=None guisp=None gui=bold ctermfg=97 ctermbg=None
+hi Statement                  guifg=#23E19E guibg=None guisp=None gui=italic ctermfg=97 ctermbg=None
+hi PreProc                    guifg=#91719D guibg=None guisp=None gui=None ctermfg=97 ctermbg=None
+hi Special                    guifg=#91719D guibg=None guisp=None gui=None ctermfg=97 ctermbg=None
+hi Identifier                 guifg=#ca1243 guibg=None guisp=None gui=bold ctermfg=236 ctermbg=None cterm=None
+hi Label                      guifg=#b4adea guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
+hi Boolean                    guifg=#ef233c guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
+hi Keyword                    guifg=#F05577 guibg=None guisp=None ctermfg=125 ctermbg=None
 hi LineNr                     guifg=None guibg=None guisp=None gui=None ctermfg=None ctermbg=None cterm=None
-hi Normal                     guifg=#323232 guibg=#ffffff guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
-hi Number                     guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
-hi Search                     guifg=#323232 guibg=#f8eec7 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
+hi Normal                     guifg=#F5EEF8 guibg=#0F0414 guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
+hi Number                     guifg=#1FB3DC guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
+hi Search                     guifg=#F5EEF8 guibg=#351536 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
 hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None 
-hi String                     guifg=#183691 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
-hi Type                       guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
-hi Visual                     guifg=None guibg=#f8eec7 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
+hi String                     guifg=#FFC857 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
+hi Type                       guifg=#ca1243 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
+hi Visual                     guifg=None guibg=#351536 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
 
 " HTML-specific
 hi TSTag                      guifg=#519647
@@ -52,11 +58,11 @@ hi Pmenu                      guibg=#F2F2F2
 hi PmenuSel                   guibg=#DDDDDD
 hi CursorLineNr               guifg=#6D6D6D guibg=#F2F2F2   
 hi SignColumn                 guifg=None guibg=None 
-hi LineNr                     guifg=#BFC4C3 guibg=None
+hi LineNr                     guifg=#44304C guibg=None
 hi ColorColumn                guibg=#f5f5f5
 hi Title                      guifg=#323232
 hi Directory                  guibg=None guifg=#115F93
-hi VertSplit                  guifg=#ffffff guibg=#F2F2F2
+hi VertSplit                  guifg=#0F0414 guibg=#44304C
 hi StatusLine                 guifg=#ffffff
 hi StatusLineNC               guifg=#ffffff
 hi NonText                    guibg=None guifg=#ca1243
@@ -101,12 +107,12 @@ hi DiffDelete                 guibg=None guifg=red
 hi DiffChange                 guibg=None guifg=yellow
 
 " [ Plugin ] - Indent Blankline
-hi IndentBlanklineChar        guifg=#F2F2F2 gui=nocombine
+hi IndentBlanklineChar        guifg=#221029 gui=nocombine
 hi IndentBlanklineContextChar guifg=#BFC4C3 gui=nocombine
 
 " [ Plugin ] - Signify
-hi SignifySignAdd             ctermbg=none guifg=#3BB544
-hi SignifySignChange          ctermbg=none guifg=#FCDF20
+hi SignifySignAdd             ctermbg=none guifg=#23d180
+hi SignifySignChange          ctermbg=none guifg=#F9A620
 hi SignifySignDelete          ctermbg=none guifg=#ca1243
 
 " TODO 
