@@ -20,7 +20,7 @@ let g:colors_name="inspired-github"
 " Syntax
 " :help syntax.txt:198 
 hi Character                  guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
-hi Comment                    guifg=#44304C guibg=None guisp=None gui=italic ctermfg=246 ctermbg=None cterm=italic
+hi Comment                    guifg=#969896 guibg=None guisp=None gui=italic ctermfg=246 ctermbg=None cterm=italic
 hi Constant                   guifg=#ef233c guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Cursor                     guifg=None guibg=#ca1243 guisp=None gui=None ctermfg=None ctermbg=236 cterm=None
 hi CursorLine                 guifg=None guibg=#1F0520 guisp=None gui=None ctermfg=None ctermbg=255 cterm=None
@@ -37,7 +37,7 @@ hi Normal                     guifg=#F5EEF8 guibg=#FFFFFF guisp=None gui=None ct
 hi Number                     guifg=#1FB3DC guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Search                     guifg=#F5EEF8 guibg=#351536 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
 hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None 
-hi String                     guifg=#FFC857 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
+hi String                     guifg=#F9A620 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
 hi Type                       guifg=#ca1243 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Visual                     guifg=None guibg=#351536 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
 
@@ -58,11 +58,11 @@ hi Pmenu                      guibg=#351536
 hi PmenuSel                   guibg=#240B25
 hi CursorLineNr               guifg=#6D6D6D guibg=#F2F2F2   
 hi SignColumn                 guifg=None guibg=None 
-hi LineNr                     guifg=#44304C guibg=None
+hi LineNr                     guifg=#BFC4C3 guibg=None
 hi ColorColumn                guibg=#f5f5f5
 hi Title                      guifg=#323232
 hi Directory                  guibg=None guifg=#ef233c
-hi VertSplit                  guifg=#0F0414 guibg=#44304C
+hi VertSplit                  guifg=#ffffff guibg=#F2F2F2
 hi StatusLine                 guifg=#ffffff
 hi StatusLineNC               guifg=#ffffff
 hi NonText                    guibg=None guifg=#ca1243
@@ -107,7 +107,7 @@ hi DiffDelete                 guibg=None guifg=red
 hi DiffChange                 guibg=None guifg=yellow
 
 " [ Plugin ] - Indent Blankline
-hi IndentBlanklineChar        guifg=#221029 gui=nocombine
+hi IndentBlanklineChar        guifg=#F2F2F2 gui=nocombine
 hi IndentBlanklineContextChar guifg=#BFC4C3 gui=nocombine
 
 " [ Plugin ] - Signify
