@@ -66,7 +66,7 @@ hi SignColumn                 guifg=None guibg=None
 hi LineNr                     guifg=#BFC4C3 guibg=None
 hi ColorColumn                guibg=#f5f5f5
 hi Title                      guifg=#323232
-hi Directory                  guibg=None guifg=#ef233c
+hi Directory                  guibg=None guifg=#ca1243 gui=bold
 hi VertSplit                  guifg=#ffffff guibg=#F2F2F2
 hi StatusLine                 guifg=#ffffff
 hi StatusLineNC               guifg=#ffffff
