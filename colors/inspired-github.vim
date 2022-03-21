@@ -33,7 +33,7 @@ hi Label                      guifg=#b4adea guibg=None guisp=None gui=None cterm
 hi Boolean                    guifg=#ef233c guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
 hi Keyword                    guifg=#F05577 guibg=None guisp=None ctermfg=125 ctermbg=None
 hi LineNr                     guifg=None guibg=None guisp=None gui=None ctermfg=None ctermbg=None cterm=None
-hi Normal                     guifg=#F5EEF8 guibg=#0F0414 guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
+hi Normal                     guifg=#F5EEF8 guibg=#FFFFFF guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
 hi Number                     guifg=#1FB3DC guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Search                     guifg=#F5EEF8 guibg=#351536 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
 hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None 
