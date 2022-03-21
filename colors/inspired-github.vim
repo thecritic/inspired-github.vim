@@ -23,23 +23,28 @@ hi Character                  guifg=#0086b3 guibg=None guisp=None gui=None cterm
 hi Comment                    guifg=#969896 guibg=None guisp=None gui=italic ctermfg=246 ctermbg=None cterm=italic
 hi Constant                   guifg=#ef233c guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Cursor                     guifg=None guibg=#ca1243 guisp=None gui=None ctermfg=None ctermbg=236 cterm=None
-hi CursorLine                 guifg=None guibg=#1F0520 guisp=None gui=None ctermfg=None ctermbg=255 cterm=None
+hi CursorLine                 guifg=None guibg=#F2F2F2 guisp=None gui=None ctermfg=None ctermbg=255 cterm=None
 hi Function                   guifg=#ca1243 guibg=None guisp=None gui=bold ctermfg=97 ctermbg=None
-hi Statement                  guifg=#23E19E guibg=None guisp=None gui=italic ctermfg=97 ctermbg=None
-hi PreProc                    guifg=#91719D guibg=None guisp=None gui=None ctermfg=97 ctermbg=None
-hi Special                    guifg=#91719D guibg=None guisp=None gui=None ctermfg=97 ctermbg=None
+hi Statement                  guifg=#0A9D6A guibg=None guisp=None gui=italic ctermfg=97 ctermbg=None
+hi PreProc                    guifg=#94839A guibg=None guisp=None gui=None ctermfg=97 ctermbg=None
+hi Special                    guifg=#94839A guibg=None guisp=None gui=None ctermfg=97 ctermbg=None
 hi Identifier                 guifg=#ca1243 guibg=None guisp=None gui=bold ctermfg=236 ctermbg=None cterm=None
-hi Label                      guifg=#b4adea guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
-hi Boolean                    guifg=#ef233c guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
-hi Keyword                    guifg=#F05577 guibg=None guisp=None ctermfg=125 ctermbg=None
+hi Label                      guifg=#786EBF guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
+hi Boolean                    guifg=#098465 guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
+hi Keyword                    guifg=#D83F60 guibg=None guisp=None ctermfg=125 ctermbg=None
 hi LineNr                     guifg=None guibg=None guisp=None gui=None ctermfg=None ctermbg=None cterm=None
-hi Normal                     guifg=#F5EEF8 guibg=#FFFFFF guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
+hi Normal                     guifg=#000000 guibg=#FFFFFF guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
 hi Number                     guifg=#1FB3DC guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
-hi Search                     guifg=#F5EEF8 guibg=#351536 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
+hi Search                     guifg=#000000 guibg=#F2F2F2 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
 hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None 
-hi String                     guifg=#F9A620 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
+hi String                     guifg=#DD3405 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
 hi Type                       guifg=#ca1243 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
-hi Visual                     guifg=None guibg=#351536 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
+hi Visual                     guifg=None guibg=#F2F2F2 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
+hi DiagnosticError guifg=#ca1243
+hi DiagnosticWarn  guifg=#EC3D15
+hi DiagnosticInfo  guifg=#36ACF5
+hi DiagnosticHint  guifg=#969896
+
 
 " HTML-specific
 hi TSTag                      guifg=#91719D
@@ -52,10 +57,10 @@ hi link phpTSOperator         Keyword
 hi link phpOperator         Keyword
 
 " General
-hi MatchParen                 guibg=#502751
-hi EndOfBuffer                guifg=#000000
-hi Pmenu                      guibg=#351536
-hi PmenuSel                   guibg=#240B25
+hi MatchParen                 guibg=#dddddd
+hi EndOfBuffer                guifg=#ffffff
+hi Pmenu                      guibg=#F2F2F2
+hi PmenuSel                   guibg=#DDDDDD
 hi CursorLineNr               guifg=#6D6D6D guibg=#F2F2F2   
 hi SignColumn                 guifg=None guibg=None 
 hi LineNr                     guifg=#BFC4C3 guibg=None
